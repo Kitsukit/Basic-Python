@@ -1,2 +1,2 @@
 # Basic-Python
-Python in the school.
+Python in  school.
