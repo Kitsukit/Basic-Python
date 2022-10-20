@@ -5,7 +5,7 @@ def quicksort(list):
 
     if len(list) > 1:
         pivot=list[-1]
-        for i in list:
+        for i in range (len(list)):
             if list[i] < pivot:
                 left.append(list[i])
             elif list[i] == pivot:
