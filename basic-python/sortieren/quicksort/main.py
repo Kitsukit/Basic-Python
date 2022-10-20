@@ -6,12 +6,12 @@ def quicksort(list):
     if len(list) > 1:
         pivot=list[-1]
         for i in list:
-            if x < pivot:
-                left.append(x)
-            elif x == pivot:
-                equal.append(x)
-            elif x > pivot:
-                right.append(x)
+            if list[i] < pivot:
+                left.append(list[i])
+            elif list[i] == pivot:
+                equal.append(list[i])
+            elif list[i] > pivot:
+                right.append(list[i])
         return quicksort(left) + equal + quicksort(right)
     else:
         return list
